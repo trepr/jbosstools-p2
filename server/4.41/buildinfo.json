@@ -1,0 +1,52 @@
+{
+    "timestamp" : 1793135211517,
+    "revision" : {
+        "HEAD" : "5cc060f95f715b38f21ec9fd0a2d4bb5779b872c",
+        "currentBranch" : "refs/heads/main",
+        "knownReferences" : null
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "21.0.12.1",
+        "user.dir" : "/home/weiler/git/github/jbosstools/jbosstools-server",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "null",
+        "os.version" : "6.18.40.1-microsoft-standard-WSL2",
+        "BUILD_NUMBER" : "null",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "RPR1033733",
+        "java.vendor" : "Ubuntu",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/home/weiler/git/github/jbosstools/jbosstools-server"
+    },
+    "upstream" : {"https://trepr.github.io/jbosstools-p2/base/4.41/" : {
+        "timestamp" : 1793125333575,
+        "revision" : {
+            "HEAD" : "5bcdeaf4a54321e513df591a8e3ea27abff7039c",
+            "currentBranch" : "refs/heads/main",
+            "knownReferences" : null
+        },
+        "properties" : {
+            "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+            "java.version" : "25.0.4.1",
+            "user.dir" : "/home/weiler/git/github/jbosstools/jbosstools-base",
+            "os.arch" : "amd64",
+            "RELEASE" : "null",
+            "BUILD_ALIAS" : "null",
+            "JOB_NAME" : "null",
+            "os.version" : "6.18.40.1-microsoft-standard-WSL2",
+            "BUILD_NUMBER" : "null",
+            "TARGET_PLATFORM_VERSION" : "null",
+            "NODE_NAME" : "null",
+            "HOSTNAME" : "RPR1033733",
+            "java.vendor" : "Ubuntu",
+            "os.name" : "Linux",
+            "ZIPSUFFIX" : "null",
+            "WORKSPACE" : "/home/weiler/git/github/jbosstools/jbosstools-base"
+        }
+    }}
+}

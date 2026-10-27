@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<description>
+	To install these features, point Eclipse at this site.
+	</description>
+
+	<category-def label="JBoss Tools Server Nightly Build Update Site" name="AllFeatures">
+		<description>JBoss Tools Server Nightly Build Update Site: contains all features in this build.</description>
+	</category-def>
+	<category-def label="JBoss Tools Server Nightly Build Update Site" name="AllSources">
+		<description>JBoss Tools Server Nightly Build Update Site: contains all source features in this build.</description>
+	</category-def>
+
+<!-- archives -->
+
+	<feature id="org.jboss.ide.eclipse.archives.feature" url="features/org.jboss.ide.eclipse.archives.feature_3.6.400.v20261027-1542.jar" version="3.6.400.v20261027-1542">
+		<category name="AllFeatures"/>
+	</feature>
+	<feature id="org.jboss.tools.archives.scanner.feature" url="features/org.jboss.tools.archives.scanner.feature_3.6.400.v20261027-1542.jar" version="3.6.400.v20261027-1542">
+		<category name="AllFeatures"/>
+	</feature>
+	<feature id="org.jboss.ide.eclipse.archives.test.feature" url="features/org.jboss.ide.eclipse.archives.test.feature_3.6.400.v20261027-2032.jar" version="3.6.400.v20261027-2032">
+		<category name="AllFeatures"/>
+	</feature>
+	<!-- sources -->
+	<feature id="org.jboss.ide.eclipse.archives.feature.source" url="features/org.jboss.ide.eclipse.archives.feature.source_3.6.400.v20261027-1542.jar" version="3.6.400.v20261027-1542">
+		<category name="AllSources"/>
+	</feature>
+	<feature id="org.jboss.ide.eclipse.archives.test.feature.source" url="features/org.jboss.ide.eclipse.archives.test.feature.source_3.6.400.v20261027-2032.jar" version="3.6.400.v20261027-2032">
+		<category name="AllSources"/>
+	</feature>
+	<feature id="org.jboss.tools.archives.scanner.feature.source" url="features/org.jboss.tools.archives.scanner.feature.source_3.6.400.v20261027-1542.jar" version="3.6.400.v20261027-1542">
+		<category name="AllSources"/>
+	</feature>
+
+<!-- as -->
+
+	<feature id="org.jboss.ide.eclipse.as.feature" url="features/org.jboss.ide.eclipse.as.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.archives.integration.feature" url="features/org.jboss.ide.eclipse.as.archives.integration.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.jmx.integration.feature" url="features/org.jboss.ide.eclipse.as.jmx.integration.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.serverAdapter.wtp.feature" url="features/org.jboss.ide.eclipse.as.serverAdapter.wtp.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.server.rse.integration.feature" url="features/org.jboss.ide.eclipse.as.server.rse.integration.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<!-- RSP -->
+	<feature id="org.jboss.tools.as.rsp.feature" url="features/org.jboss.tools.as.rsp.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.test.feature" url="features/org.jboss.ide.eclipse.as.test.feature_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<!-- sources -->
+	<feature id="org.jboss.ide.eclipse.as.feature.source" url="features/org.jboss.ide.eclipse.as.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllSources" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.archives.integration.feature.source" url="features/org.jboss.ide.eclipse.as.archives.integration.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllSources" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.jmx.integration.feature.source" url="features/org.jboss.ide.eclipse.as.jmx.integration.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllSources" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.serverAdapter.wtp.feature.source" url="features/org.jboss.ide.eclipse.as.serverAdapter.wtp.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllSources" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.server.rse.integration.feature.source" url="features/org.jboss.ide.eclipse.as.server.rse.integration.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllSources" />
+	</feature>
+	<!-- RSP -->
+	<feature id="org.jboss.tools.as.rsp.feature.source" url="features/org.jboss.tools.as.rsp.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.ide.eclipse.as.test.feature.source" url="features/org.jboss.ide.eclipse.as.test.feature.source_3.10.3.v20261027-2033.jar" version="3.10.3.v20261027-2033">
+		<category name="AllSources" />
+	</feature>
+
+<!-- jmx -->
+
+	<feature id="org.jboss.tools.jmx.feature" url="features/org.jboss.tools.jmx.feature_1.10.400.v20261027-2033.jar" version="1.10.400.v20261027-2033">
+		<category name="AllFeatures"/>
+	</feature>
+	<feature id="org.jboss.tools.jmx.test.feature" url="features/org.jboss.tools.jmx.test.feature_1.10.400.v20261027-2105.jar" version="1.10.400.v20261027-2105">
+        	<category name="AllFeatures"/>
+        </feature>
+	<!-- sources -->
+	<feature id="org.jboss.tools.jmx.feature.source" url="features/org.jboss.tools.jmx.feature.source_1.10.400.v20261027-2033.jar" version="1.10.400.v20261027-2033">
+		<category name="AllSources"/>
+	</feature>
+	<feature id="org.jboss.tools.jmx.test.feature.source" url="features/org.jboss.tools.jmx.test.feature.source_1.10.400.v20261027-2105.jar" version="1.10.400.v20261027-2105">
+		<category name="AllSources"/>
+	</feature>
+
+<!-- wtp -->
+
+	<feature id="org.jboss.tools.wtp.runtimes.tomcat.feature" url="features/org.jboss.tools.wtp.runtimes.tomcat.feature_1.3.207.v20261027-1542.jar" version="1.3.207.v20261027-1542">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.tools.wtp.runtimes.tomcat.tests.feature" url="features/org.jboss.tools.wtp.runtimes.tomcat.tests.feature_1.3.207.v20261027-1542.jar" version="1.3.207.v20261027-1542">
+		<category name="AllFeatures" />
+	</feature>
+	<feature id="org.jboss.tools.wtp.server.launchbar.feature" url="features/org.jboss.tools.wtp.server.launchbar.feature_1.3.207.v20261027-2054.jar" version="1.3.207.v20261027-2054">
+		<category name="AllFeatures"/>
+	</feature>
+
+	<!-- sources -->
+	<feature id="org.jboss.tools.wtp.runtimes.tomcat.feature.source" url="features/org.jboss.tools.wtp.runtimes.tomcat.feature.source_1.3.207.v20261027-1542.jar" version="1.3.207.v20261027-1542">
+		<category name="AllSources" />
+	</feature>
+	<feature id="org.jboss.tools.wtp.runtimes.tomcat.tests.feature.source" url="features/org.jboss.tools.wtp.runtimes.tomcat.tests.feature.source_1.3.207.v20261027-1542.jar" version="1.3.207.v20261027-1542">
+		<category name="AllSources" />
+	</feature>
+	<feature id="org.jboss.tools.wtp.server.launchbar.feature.source" url="features/org.jboss.tools.wtp.server.launchbar.feature.source_1.3.207.v20261027-2054.jar" version="1.3.207.v20261027-2054">
+		<category name="AllFeatures"/>
+	</feature>
+</site>
+
