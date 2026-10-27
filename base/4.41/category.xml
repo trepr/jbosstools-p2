@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<description>To install these features, point Eclipse at this site.</description>
+
+	<category-def label="JBoss Tools Base Nightly Build Update Site" name="AllFeatures"><description>JBoss Tools Base Nightly Build Update Site: contains all features in this build.</description></category-def>
+	<category-def label="JBoss Tools Base Nightly Build Update Site" name="AllSources"><description>JBoss Tools Base Nightly Build Update Site: contains all source features in this build.</description></category-def>
+
+<!-- tests -->
+	<feature id="org.jboss.tools.test.feature" url="features/org.jboss.tools.test.feature_3.7.103.v20261016-2118.jar" version="3.7.103.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.test.feature.source" url="features/org.jboss.tools.test.feature.source_3.7.103.v20261016-2118.jar" version="3.7.103.v20261016-2118"><category name="AllSources"/></feature>
+
+<!-- common -->
+	<feature id="org.jboss.tools.common.all.feature" url="features/org.jboss.tools.common.all.feature_3.18.0.v20261027-1820.jar" version="3.18.0.v20261027-1820"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.core.feature" url="features/org.jboss.tools.common.core.feature_3.18.0.v20261027-1820.jar" version="3.18.0.v20261027-1820"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.feature" url="features/org.jboss.tools.common.feature_3.18.0.v20261027-1813.jar" version="3.18.0.v20261027-1813"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.text.ext.feature" url="features/org.jboss.tools.common.text.ext.feature_3.18.0.v20261027-1809.jar" version="3.18.0.v20261027-1809"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.ui.feature" url="features/org.jboss.tools.common.ui.feature_3.18.0.v20261027-1813.jar" version="3.18.0.v20261027-1813"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.verification.feature" url="features/org.jboss.tools.common.verification.feature_3.18.0.v20261016-2118.jar" version="3.18.0.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.jdt.feature" url="features/org.jboss.tools.common.jdt.feature_3.18.0.v20261016-2118.jar" version="3.18.0.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.oauth.feature" url="features/org.jboss.tools.common.oauth.feature_3.18.0.v20261016-2118.jar" version="3.18.0.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.all.test.feature" url="features/org.jboss.tools.common.all.test.feature_3.18.0.v20261027-1820.jar" version="3.18.0.v20261027-1820"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.common.all.feature.source" url="features/org.jboss.tools.common.all.feature.source_3.18.0.v20261027-1820.jar" version="3.18.0.v20261027-1820"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.core.feature.source" url="features/org.jboss.tools.common.core.feature.source_3.18.0.v20261027-1820.jar" version="3.18.0.v20261027-1820"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.feature.source" url="features/org.jboss.tools.common.feature.source_3.18.0.v20261027-1813.jar" version="3.18.0.v20261027-1813"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.text.ext.feature.source" url="features/org.jboss.tools.common.text.ext.feature.source_3.18.0.v20261027-1809.jar" version="3.18.0.v20261027-1809"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.ui.feature.source" url="features/org.jboss.tools.common.ui.feature.source_3.18.0.v20261027-1813.jar" version="3.18.0.v20261027-1813"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.verification.feature.source" url="features/org.jboss.tools.common.verification.feature.source_3.18.0.v20261016-2118.jar" version="3.18.0.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.jdt.feature.source" url="features/org.jboss.tools.common.jdt.feature.source_3.18.0.v20261016-2118.jar" version="3.18.0.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.oauth.feature.source" url="features/org.jboss.tools.common.oauth.feature.source_3.18.0.v20261016-2118.jar" version="3.18.0.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.common.all.test.feature.source" url="features/org.jboss.tools.common.all.test.feature.source_3.18.0.v20261027-1820.jar" version="3.18.0.v20261027-1820"><category name="AllSources"/></feature>
+
+<!-- foundation -->
+	<feature id="org.jboss.tools.foundation.feature" url="features/org.jboss.tools.foundation.feature_1.6.2000.v20261027-1821.jar" version="1.6.2000.v20261027-1821"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.foundation.license.feature" url="features/org.jboss.tools.foundation.license.feature_1.6.2000.v20240619-0947.jar" version="1.6.2000.v20240619-0947"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.foundation.security.linux.feature" url="features/org.jboss.tools.foundation.security.linux.feature_1.6.2000.v20261016-2118.jar" version="1.6.2000.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.foundation.test.feature" url="features/org.jboss.tools.foundation.test.feature_1.6.2000.v20261027-1747.jar" version="1.6.2000.v20261027-1747"><category name="AllFeatures"/></feature>
+	<bundle id="org.jboss.tools.foundation.help.ui"/>
+	<bundle id="org.jboss.tools.foundation.help.test"/>
+	<feature id="org.jboss.tools.foundation.feature.source" url="features/org.jboss.tools.foundation.feature.source_1.6.2000.v20261027-1821.jar" version="1.6.2000.v20261027-1821"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.foundation.security.linux.feature.source" url="features/org.jboss.tools.foundation.security.linux.feature.source_1.6.2000.v20261016-2118.jar" version="1.6.2000.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.foundation.test.feature.source" url="features/org.jboss.tools.foundation.test.feature.source_1.6.2000.v20261027-1747.jar" version="1.6.2000.v20261027-1747"><category name="AllSources"/></feature>
+	<bundle id="org.jboss.tools.foundation.help.ui.source"/>
+	<bundle id="org.jboss.tools.foundation.help.test.source"/>
+
+<!-- usage -->
+
+	<feature id="org.jboss.tools.usage.feature" url="features/org.jboss.tools.usage.feature_2.3.100.v20261016-2118.jar" version="2.3.100.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.usage.test.feature" url="features/org.jboss.tools.usage.test.feature_2.3.100.v20261016-2118.jar" version="2.3.100.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.usage.feature.source" url="features/org.jboss.tools.usage.feature.source_2.3.100.v20261016-2118.jar" version="2.3.100.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.usage.test.feature.source" url="features/org.jboss.tools.usage.test.feature.source_2.3.100.v20261016-2118.jar" version="2.3.100.v20261016-2118"><category name="AllSources"/></feature>
+
+<!-- runtime -->
+
+	<feature id="org.jboss.tools.runtime.core.feature" url="features/org.jboss.tools.runtime.core.feature_3.5.400.v20261016-2118.jar" version="3.5.400.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.runtime.test.feature" url="features/org.jboss.tools.runtime.test.feature_3.5.400.v20261027-1816.jar" version="3.5.400.v20261027-1816"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.runtime.core.feature.source" url="features/org.jboss.tools.runtime.core.feature.source_3.5.400.v20261016-2118.jar" version="3.5.400.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.runtime.test.feature.source" url="features/org.jboss.tools.runtime.test.feature.source_3.5.400.v20261027-1816.jar" version="3.5.400.v20261027-1816"><category name="AllSources"/></feature>
+
+<!-- stacks -->
+	<feature id="org.jboss.tools.stacks.core.feature" url="features/org.jboss.tools.stacks.core.feature_1.4.400.v20261016-2118.jar" version="1.4.400.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.stacks.core.test.feature" url="features/org.jboss.tools.stacks.core.test.feature_1.4.400.v20261016-2118.jar" version="1.4.400.v20261016-2118"><category name="AllFeatures"/></feature>
+	<feature id="org.jboss.tools.stacks.core.feature.source" url="features/org.jboss.tools.stacks.core.feature.source_1.4.400.v20261016-2118.jar" version="1.4.400.v20261016-2118"><category name="AllSources"/></feature>
+	<feature id="org.jboss.tools.stacks.core.test.feature.source" url="features/org.jboss.tools.stacks.core.test.feature.source_1.4.400.v20261016-2118.jar" version="1.4.400.v20261016-2118"><category name="AllSources"/></feature>
+
+</site>
